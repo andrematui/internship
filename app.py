@@ -129,7 +129,7 @@ if st.button("Generate Images"):
     cols = st.columns(5) # Create 5 columns for images
     for i, img in enumerate(generated_images):
         with cols[i]:
-            st.image(img, caption=f"Image {i+1}", use_column_width=True)
+            st.image(img, caption=f"Image {i+1}", use_container_width=True)
 
     st.success("Images generated successfully!")
 
