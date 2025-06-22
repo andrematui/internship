@@ -1,8 +1,8 @@
 ```
-streamlit
-# Pinned versions for stability, matching your Colab torch.__version__ without +cuXXX
-torch==2.6.0
-torchvision==0.19.0
-numpy
-Pillow
-```
+        streamlit
+        # Pinned to a more stable and widely compatible PyTorch version
+        torch==1.13.1
+        torchvision==0.14.1
+        numpy
+        Pillow
+        ```
